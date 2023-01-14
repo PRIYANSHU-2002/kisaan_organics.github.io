@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisaan Organics</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div>
+        <center>
+        <img id="logo" src="logo.png" alt="There should be a logo here" >
+        </center>
+    </div>
+ 
+    <div id="header">
+        <big><b>
+        <header> KISAAN ORGANICS </header>
+        </b></big>    
+    </div> 
+
+    <div id="navigation bar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="vision.html">Vision and Mission</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="stores.html">Our Stores</a></li>
+          </ul>
+          
+    </div>
+ <br>
+ <br>
+ <br>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        <img src="farmer.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+        <img src="farm.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <img src="sprinkler1.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+        <img src="cow.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+        <img src="bee.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+        <img src="polynet.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+        <img src="vegetables.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <img src="papaya farm1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <img src="farmer1.jpg" style="width:100%">
+        </div>
+
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active_slide", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active_slide";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+
+    <div class="main">
+       <span class="l1"> Connect with nature <br>  </span> 
+      <sapn class="l2"> <br> Experience the nutrition and  <br>
+        goodness of nature with us.  </sapn>
+    </div>
+  </body>
+
+    <footer>
+    <div class="left"> <span class="contact"> Reach out to us: </span></div>
+    <div class="right"><span class="social_media"> Join us on: </span></div>
+    <div class="left"><span class="cdetails">1800-555-222 </span></div><br>
+    <div class="left"><span class="cdetails">query@kisaanorganics.com </span></div>
+    <div class="right"><span class ="smdetails"> Facebook <br>
+     Instagram  <br>
+     Twitter </span></div>
+   
+    
+   <div class="left"><span class="cdetails">4th Floor, Accord Blu, A-Block,</span></div>
+    <div class="left"><span class="cdetails">Banjara Hills, AB Road, Noida,</span></div>
+    <div class="left"><span class="cdetails">Uttar Pradesh - 751654 </span></div> 
+    
+    
+    
+    
+    <center><span id="note"> @ All rights reserved </span></center>
+      
+    
+    </footer>
+
+        
+
+</html>

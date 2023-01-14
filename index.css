@@ -1,0 +1,184 @@
+*
+{
+   margin: 0%;
+}
+#logo
+{
+    height: 300px;
+    width: 250px;
+}
+
+#header
+{
+color:whitesmoke;
+background-color: rgb(20, 173, 20);
+font:bold;
+font-size: 120px;    
+text-align: center;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 50px ;
+}
+  
+li a:hover:not(.active) 
+{
+    background-color: #111;
+ }
+  
+.active 
+{
+    background-color:rgb(227, 122, 70);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+  display: none;
+}
+
+img 
+{
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active_slide {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.main
+{
+ background-image: url("organic.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-top:50px;
+ padding-top: 150px;
+ padding-bottom: 600px;
+ 
+}
+
+.l1
+{
+  color:white;
+  font-size: 200px;
+}
+
+.l2
+{
+  color:whitesmoke;
+  font-size: 100px;
+}
+
+footer
+{
+  background-color: black;
+  padding-bottom: 10px;
+
+}
+
+.right
+{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.left
+{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contact
+{
+  font-size: 40px;
+  color:white;
+}
+
+.cdetails
+{
+  font-size: 25px;
+  color:whitesmoke;
+}
+
+.social_media
+{
+  font-size: 40px;
+  color:white;
+}
+
+.smdetails
+{
+  
+  font-size: 25px;
+  color:whitesmoke;
+}
+
+#note
+{
+  color:whitesmoke;
+  font-size:25px;
+  margin-top:20px;
+  margin-bottom:0px;
+}
+
